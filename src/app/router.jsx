@@ -4,6 +4,7 @@ import History1Page from '../features/history-1/History1Page.jsx'
 import EditionSettingsPage from '../features/history-2/pages/EditionSettingsPage.jsx'
 import ThematicAxesPage from '../features/history-2/pages/ThematicAxesPage.jsx'
 import WorkTypesPage from '../features/history-2/pages/WorkTypesPage.jsx'
+import NewWorkPage from '../features/history-3/pages/NewWorkPage.jsx'
 import ReviewerInboxPage from '../features/history-5/pages/ReviewerInboxPage.jsx'
 
 const router = createBrowserRouter([
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: '/configuracion/tipos-trabajo',
     element: <WorkTypesPage />,
+  },
+  {
+    path: '/nuevo-trabajo',
+    element: <NewWorkPage />,
   },
   {
     path: '/bandeja-revision',
